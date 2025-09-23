@@ -6,6 +6,8 @@ public class Task4 {
 
         int age;
 
+        System.out.println("Enter in your age:");
+
         if (scan.hasNextInt()) {
             age = scan.nextInt();
             if (age >= 21) {
